@@ -4,6 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Headers */
 h1 {
     font-family: 'Playfair Display';
     font-size: 50px;
@@ -28,6 +29,7 @@ h4 {
     font-size: 20px;
 }
 
+/* Paragraph text, bulletpoints */
 p,
 ul {
     font-family: "Lato", serif;
@@ -44,6 +46,7 @@ ul {
     margin-top: 1px;
 }
 
+/* Page Structure */
 .main_container {
     /* display: flex; */
     flex-direction: column;
@@ -54,12 +57,13 @@ ul {
     margin: auto;
 }
 
-.section_column {
+/* Sections: Name, Contact, and Bio */
+.section1 {
     display: flex;
     flex-wrap: wrap;
 }
 
-.section1 {
+.section_column {
     display: flex;
     flex-wrap: wrap;
 }
@@ -72,7 +76,7 @@ ul {
     flex: 2;
 }
 
-
+/* Boxes: Styling and Labels */
 .boxes {
     border: 3px dotted rgb(13, 24, 33);
     background-color: rgb(191, 204, 148);
@@ -84,19 +88,20 @@ ul {
     padding-left: 10px;
 }
 
+
+/* Styling: Employment */
+/* Information Container */
 .roles {
     width: 90%;
-
 }
 
+/* Section title */
 .jobHeader {
     display: flex;
 }
 
+/* Job title and length of time */
 .jobTitle {
-    /* width: 60%; */
-    /* text-align: end; */
-    /* font-size: 25px; */
     padding: 1%;
 }
 
@@ -108,14 +113,20 @@ ul {
     padding: 1%;
 }
 
+/* Job divider */
+hr {
+    width: 50%;
+    justify-content: center;
+}
+
+/* Styling: Education */
+/* Section title */
 .eduHeader {
     display: flex;
 }
 
+/* Education name and length of time */
 .eduTitle {
-    /* width: 60%; */
-    /* text-align: end; */
-    /* font-size: 25px; */
     padding: 1%;
 }
 
@@ -127,21 +138,20 @@ ul {
     padding: 1%;
 }
 
-hr {
-    width: 50%;
-    justify-content: center;
-}
-
+/* Styling: Programming, Language, and Education */
 .section3_box {
     margin: 5%;
 }
 
+/* Progress Bar */
+/* Bar container */
 .bar {
     background-color: rgb(147, 147, 147);
     color: white;
     border-radius: 15px;
 }
 
+/* Bar with measured progress */
 .skill {
     background-color: lightcoral;
     text-align: right;
@@ -149,6 +159,8 @@ hr {
     border-radius: 15px;
 }
 
+/* Skill levels */
+/* Programming */
 .html {
     width: 80%;
 }
@@ -161,6 +173,7 @@ hr {
     width: 5%;
 }
 
+/* Languages */
 .spanish {
     width: 95%;
 }
@@ -169,6 +182,7 @@ hr {
     width: 10%;
 }
 
+/* Styling: Boxes */
 #box1 {
     width: 60%;
     text-align: end;
